@@ -6,6 +6,6 @@ jQuery plugin to display one word at a time on scroll, click, or key press.
 Usage
 ===========
 
-$("#theContainer").wordReveal("The sentance to reveal", "type of reveal");
+$("#theContainer").wordReveal({text:"The sentance to reveal", type:"click"});
 
-Types of reveal are "click" and "keyPress".
+Type can be either "click" and "keyPress".
