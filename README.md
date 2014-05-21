@@ -12,7 +12,7 @@ Usage
 
 - Place an id on the element you wish to fill:
 
-    <p id="revealer"></p>
+    &lt;p id="revealer"&gt;&lt;/p&gt;
 
 - Place the following in $(document).ready()
 
