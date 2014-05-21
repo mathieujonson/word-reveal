@@ -6,6 +6,17 @@ jQuery plugin to display one word at a time on scroll, click, or key press.
 Usage
 ===========
 
-$("#theContainer").wordReveal({text:"The sentance to reveal", type:"click"});
+- Include jQuery
+- 
+- Include wordReveal.min.js
 
-Type can be either "click" and "keyPress".
+- Place an id on the element you wish to fill:
+
+    <p id="revealer"></p>
+
+- Place the following in $(document).ready()
+
+    $("#reveal").wordReveal({text:"The sentance to reveal"});
+    
+Visit http://jsfiddle.net/mathieujonson/SdW3H/ to view a working demo.
+
