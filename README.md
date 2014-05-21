@@ -1,7 +1,7 @@
 word-reveal
 ===========
 
-jQuery plugin to display one word at a time on scroll, click, or key press.
+jQuery plugin to display one word at a time for each click.
 
 Usage
 ===========
